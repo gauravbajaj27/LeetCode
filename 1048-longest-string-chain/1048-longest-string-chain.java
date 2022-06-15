@@ -23,7 +23,7 @@ class Solution {
                 String temp=s.substring(0,i)+s.substring(i+1,s.length());
                 // System.out.println(temp);
                 if(hm.containsKey(temp) && hm.get(temp)+1>=hm.get(s)){
-                    System.out.println(hm.get(temp));
+                    // System.out.println(hm.get(temp));
                     hm.put(s,hm.get(temp)+1);
                 }
                 
