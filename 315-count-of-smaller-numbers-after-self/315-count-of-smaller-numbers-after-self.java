@@ -1,5 +1,8 @@
 class Solution {
     public List<Integer> countSmaller(int[] arr) {
+        //Binary Search Approach
+        // Create a List ans to store ans of each index
+        //Start from the extreme left of nums arr and put each element in the second list on a specified index returned by binary search performing on second list (al2);
         LinkedList<Integer> ans= new LinkedList<>();
         List<Integer> al2= new ArrayList<>();
         int n=arr.length;
